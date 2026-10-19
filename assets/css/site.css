@@ -932,7 +932,7 @@ a.contact:hover { color: var(--text); text-decoration: underline; text-underline
 }
 .contribute-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.75rem; }
 .contribute-inner .contribute-note { margin-top: 1.75rem; font-size: .9rem; }
-.contribute-note a { color: var(--volt); text-underline-offset: 3px; }
+.contribute-note a { color: var(--volt); text-underline-offset: 3px; overflow-wrap: anywhere; }
 
 /* ── Footer ───────────────────────────────────────────────────────────── */
 .footer { padding: 0 var(--gutter) 40px; }
