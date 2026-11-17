@@ -75,3 +75,90 @@
     - moisture
     - hygrothermal
     - building-fabric
+
+- title: "MuFlex"
+  type: "model"
+  description: "A scalable, physics-based platform for analysing and coordinating energy flexibility across multiple buildings. It shows how coordinated building energy management can cut peak electricity demand while keeping indoor conditions comfortable, supporting renewable integration."
+  link: "https://github.com/BuildNexusX/MuFlex"
+  contact: "rui.tang@ucl.ac.uk"
+  people:
+    - Ziyan Wu
+    - Ivan Korolija
+    - Rui Tang
+  paper: "https://doi.org/10.1016/j.energy.2026.140565"
+  tags:
+    - energy-flexibility
+    - distributed-energy-resources
+    - building-stock
+    - ai
+
+- title: "NBM-Health"
+  type: "model"
+  description: "The health module of the National Buildings Model, estimating the health impacts of dwelling retrofit in England. It uses the English Housing Survey 2017 as input and was developed for DESNZ."
+  link: "mailto:p.symonds@ucl.ac.uk"
+  contact: "p.symonds@ucl.ac.uk"
+  people:
+    - Phil Symonds
+  paper: "https://www.gov.uk/government/publications/health-impacts-of-net-zero-housing-in-england"
+  tags:
+    - health-impact
+    - retrofit
+    - housing-stock
+
+- title: "UK HSM"
+  type: "model"
+  description: "Tools for building EnergyPlus-derived metamodels of the UK housing stock: EPG (EnergyPlus Generator) creates input files for UK archetypes, EPR (EnergyPlus Reader) reads the outputs to train a metamodel, and the metamodel runs retrofit scenarios across the stock."
+  link: "mailto:p.symonds@ucl.ac.uk"
+  contact: "p.symonds@ucl.ac.uk"
+  people:
+    - Phil Symonds
+  paper: "https://doi.org/10.1080/19401493.2016.1166265"
+  tags:
+    - energyplus
+    - metamodel
+    - housing-stock
+    - retrofit
+
+- title: "CRAFT: Cities Rapid Assessment Framework for Transformation"
+  type: "model"
+  description: "An Excel-based tool giving high-level estimates of the health and greenhouse gas impacts of ten of the Greater London Authority's net zero policies. Developed in the Wellcome Trust-funded CUSSH project."
+  link: "https://doi.org/10.6084/m9.figshare.13125407"
+  license: "CC-BY-4.0"
+  contact: "p.symonds@ucl.ac.uk"
+  people:
+    - Phil Symonds
+    - James Milner
+    - Nahid Mohajeri
+    - Juliette Aplin
+    - Joanna Hale
+    - Simon J Lloyd
+    - Henry Fremont
+    - Sam Younkin
+    - Clive Shrubsole
+    - Lawrie Robertson
+    - Jonathon Taylor
+    - Nici Zimmermann
+    - Paul Wilkinson
+    - Mike Davies
+  paper: "https://doi.org/10.12688/wellcomeopenres.16345.2"
+  tags:
+    - health-impact
+    - urban
+    - net-zero
+    - london
+
+- title: "English Housing, Socio-demographic, Environmental and Mental Health Data"
+  type: "data"
+  description: "Open datasets on housing (EPCs), socio-demographics (ONS), mental health and the environment, linked at LSOA level across England."
+  link: "https://doi.org/10.6084/m9.figshare.26964265"
+  license: "CC-BY-4.0"
+  contact: "p.symonds@ucl.ac.uk"
+  people:
+    - Phil Symonds
+  paper: "https://doi.org/10.5334/bc.424"
+  tags:
+    - housing-stock
+    - mental-health
+    - socio-demographic
+    - environmental
+    - lsoa
